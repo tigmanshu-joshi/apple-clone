@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+}
+
+.nav-items {
+  margin-left: 20px;
+}
+.nav-items img {
+  height: 15px;
+  width: 15px;
+}
+
+.nav-items a {
+  color: gray;
+  font-size: 12px;
+  transition: 1s;
+  text-transform: capitalize;
+}
+
+.nav-items a:hover {
+  color: white;
+}
+a {
+  text-decoration: none;
+}
+
+/* Header */
+
+.header {
+  width: 100%;
+  margin-top: 40px;
+  background-color: white;
+}
+
+.mainLine {
+  width: 100%;
+  background-color: #f5f5f7;
+  padding: 5px;
+  /* display: flex;
+  justify-content: center; */
+}
+
+.mainLine p {
+  font-size: 14px;
+}
+
+.headerContent {
+  flex-direction: column;
+  margin: 20px;
+}
+
+.headerContent h3 {
+  font-weight: 400;
+  margin-top: 5px;
+  margin-bottom: 14px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerLinks a {
+  color: #5a9bde;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  font-size: 1em;
+}
+.headerLinks a:hover {
+  text-decoration: underline;
+}
+
+.headerImage {
+  height: 410px;
+  width: 1000px;
+  padding: 20px;
+  padding-right: 50px;
+  padding-bottom: 0%;
+  overflow-y: hidden;
+  justify-content: center;
+}
+
+.two {
+  /* background: url(images/image-two.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; */
+  height: 500px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.two img {
+  height: 90%;
+  width: 100%;
+}
+
+.twoText {
+  position: absolute;
+  top: 5%;
+  flex-direction: column;
+  left: 45%;
+  text-align: center;
+}
+
+.twoText h1 {
+  color: white;
+}
+
+.twoText h3 {
+  color: #fcc2eb;
+  padding-bottom: 3px;
+}
+
+.threeText h1 {
+  color: black;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.child img {
+  width: 100%;
+  margin: 8px;
+}
+
+.footer {
+  margin-bottom: 0;
+  background-color: #f5f5f7;
+  padding: 10px;
+  flex-direction: column;
+  width: 100%;
+}
+
+.sub-footer {
+  width: 70%;
+  padding: 5px;
+  border-bottom: #6e6e77;
+}
+
+.sub-footer p {
+  font-size: 0.9em;
+  color: #6e6e77;
+  margin-top: 15px;
+}
+
+.footerLinks {
+  justify-content: flex-start;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+li {
+  color: gray;
+  font-size: 12px;
+  transition: 1s;
+  text-transform: capitalize;
+  margin-top: 5px;
+}
+
+.footerBottomText {
+  color: gray;
+  font-size: 12px;
+  transition: 1s;
+  text-transform: capitalize;
+  margin-top: 5px;
+}
